@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Solar Installation Services in Pakistan | 2025</title>
+  <meta name="description" content="Professional solar installation services for homes and businesses in Pakistan. System design, panel installation, inverter setup, net metering, and maintenance." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root {
+      --gold: #F5C542;
+      --ink: #111827;
+      --muted: #6B7280;
+      --card-shadow: 0 10px 30px rgba(17,24,39,0.06);
+      --header-h: 76px;
+    }
+
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background: #f8fafc;
+      color: var(--ink);
+      padding-top: var(--header-h);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header.site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--header-h);
+      z-index: 60;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      background: white/90;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .fade-up { animation: fadeUp .9s cubic-bezier(.2,.9,.2,1) both; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
+
+    .gold-glow { box-shadow: 0 6px 24px rgba(245,197,66,0.10); border-radius: 14px; }
+    .accent-border { border-top: 4px solid var(--gold); }
+    .table-hover tbody tr:hover { background: rgba(17,24,39,0.02); }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between h-full">
+      <a href="home.html#hero" class="flex items-center gap-3">
+        <span class="inline-block w-10 h-10 rounded-md bg-gradient-to-br from-[#1f2937] to-[#111827] flex items-center justify-center text-white font-bold shadow">☀</span>
+        <div>
+          <div class="text-lg font-extrabold text-[var(--ink)]">SOLAR BLOG</div>
+          <div class="text-xs text-[var(--muted)] -mt-1">Panel prices • Installation • Guides</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-[var(--ink)]">
+        <a href="home.html#hero" class="hover:text-[var(--gold)] transition">Home</a>
+        <a href="services.html#hero" class="hover:text-[var(--gold)] transition">Services</a>
+        <a href="blog.html#hero" class="hover:text-[var(--gold)] transition">Blog</a>
+        <a href="contact.html#hero" class="hover:text-[var(--gold)] transition">Contact</a>
+      </nav>
+
+      <div class="hidden md:block">
+        <a href="contact.html" class="px-4 py-2 bg-[var(--gold)] text-black rounded-md font-semibold shadow hover:bg-[#e6b834] transition">Get Quote</a>
+      </div>
+
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-[var(--ink)]" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+      <div class="px-4 py-4 space-y-2">
+        <a href="home.html#hero" class="block py-2 rounded hover:bg-gray-50">Home</a>
+        <a href="services.html#hero" class="block py-2 rounded hover:bg-gray-50">Services</a>
+        <a href="blog.html#hero" class="block py-2 rounded hover:bg-gray-50">Blog</a>
+        <a href="contact.html#hero" class="block py-2 rounded hover:bg-gray-50">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="relative hero-height bg-cover bg-center" style="background-image:url('images/hero-services.jpg')">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-24 flex flex-col items-center text-center text-white">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight drop-shadow-sm">
+        Professional <span class="text-[var(--gold)]">Solar Installation</span> Services
+      </h1>
+      <p class="mt-4 max-w-2xl text-lg text-gray-100/90">
+        Reliable, safe, and efficient solar solutions for homes and businesses across Pakistan.
+      </p>
+
+      <div class="mt-8 flex gap-4 flex-wrap justify-center">
+        <a href="#services" class="px-6 py-3 bg-[var(--gold)] text-black rounded-md font-semibold shadow hover:bg-[#e6b834] transition">View Services</a>
+        <a href="#quote" class="px-6 py-3 bg-transparent border border-white/30 text-white rounded-md font-semibold hover:bg-white/10 transition">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <main class="max-w-7xl mx-auto px-6 py-16" id="services">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[var(--ink)] mb-4">Our Solar Installation Services</h2>
+      <p class="text-[var(--muted)] max-w-3xl mx-auto">We provide end-to-end solar solutions including system design, installation, maintenance, and net metering for homes and businesses in Pakistan.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <article class="bg-white p-6 rounded-2xl border border-gray-100 gold-glow accent-border hover:shadow-lg transition fade-up">
+        <h3 class="text-xl font-bold text-[var(--ink)] mb-3">Home Solar Panel Installation</h3>
+        <p class="text-[var(--muted)] mb-2">Complete home solar solutions including:</p>
+        <ul class="list-disc list-inside text-[var(--muted)]">
+          <li>Site inspection and feasibility assessment</li>
+          <li>Custom system design and panel selection</li>
+          <li>Panel mounting and secure installation</li>
+          <li>Wiring, inverter setup, and safety checks</li>
+          <li>Final testing and commissioning</li>
+        </ul>
+      </article>
+
+      <article class="bg-white p-6 rounded-2xl border border-gray-100 gold-glow accent-border hover:shadow-lg transition fade-up">
+        <h3 class="text-xl font-bold text-[var(--ink)] mb-3">Commercial & Complete Systems</h3>
+        <p class="text-[var(--muted)] mb-2">Systems ranging from 3kW to 20kW tailored for any size property:</p>
+        <ul class="list-disc list-inside text-[var(--muted)]">
+          <li>3kW – Small homes</li>
+          <li>5kW – Medium homes</li>
+          <li>10kW – Large homes</li>
+          <li>20kW – Commercial and large properties</li>
+        </ul>
+      </article>
+
+      <article class="bg-white p-6 rounded-2xl border border-gray-100 gold-glow accent-border hover:shadow-lg transition fade-up">
+        <h3 class="text-xl font-bold text-[var(--ink)] mb-3">Inverter Installation & Replacement</h3>
+        <p class="text-[var(--muted)]">We install and replace top inverter brands including Inverex, Tesla, Solis, Fronius, and Growatt. Ensuring efficiency and long-term reliability.</p>
+      </article>
+
+      <article class="bg-white p-6 rounded-2xl border border-gray-100 gold-glow accent-border hover:shadow-lg transition fade-up">
+        <h3 class="text-xl font-bold text-[var(--ink)] mb-3">Maintenance & Support</h3>
+        <p class="text-[var(--muted)]">Regular maintenance ensures optimal performance:</p>
+        <ul class="list-disc list-inside text-[var(--muted)]">
+          <li>Panel cleaning</li>
+          <li>Wiring inspections</li>
+          <li>Inverter performance checks</li>
+          <li>System optimization for maximum output</li>
+        </ul>
+      </article>
+
+      <article class="bg-white p-6 rounded-2xl border border-gray-100 gold-glow accent-border hover:shadow-lg transition fade-up">
+        <h3 class="text-xl font-bold text-[var(--ink)] mb-3">Net Metering Services</h3>
+        <p class="text-[var(--muted)]">We handle all net metering steps including:</p>
+        <ul class="list-disc list-inside text-[var(--muted)]">
+          <li>Documentation and application submission</li>
+          <li>Site inspection coordination</li>
+          <li>Bidirectional meter installation</li>
+          <li>Activation of grid export functionality</li>
+        </ul>
+      </article>
+
+    </div>
+
+    <!-- FREE QUOTE -->
+    <section id="quote" class="mt-16 bg-white p-10 rounded-2xl border border-gray-100 gold-glow accent-border">
+      <h3 class="text-2xl font-bold text-[var(--ink)] mb-4">Get a Free Solar Quote</h3>
+      <p class="text-[var(--muted)] mb-4">Provide your electricity bill and roof details. Our team will calculate the optimal solar system and provide a detailed cost estimate.</p>
+      <a href="contact.html" class="inline-block mt-3 px-6 py-3 bg-[var(--gold)] text-black rounded-md font-semibold shadow hover:bg-[#e6b834] transition">Request Quote</a>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="mt-20">
+      <div class="text-center mb-10">
+        <h3 class="text-3xl font-extrabold text-[var(--ink)] mb-4">Frequently Asked Questions</h3>
+        <p class="text-[var(--muted)] max-w-3xl mx-auto">Common questions about solar installation, maintenance, and net metering in Pakistan.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">How long does a rooftop installation take?</summary>
+          <p class="mt-2 text-[var(--muted)]">A typical home installation takes 1–2 days including mounting, wiring, inverter setup, and testing.</p>
+        </details>
+
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">Are solar panels safe for homes with kids and pets?</summary>
+          <p class="mt-2 text-[var(--muted)]">Yes — panels are installed on the rooftop, and indoor wiring is safely enclosed with certified breakers.</p>
+        </details>
+
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">What maintenance do solar panels require?</summary>
+          <p class="mt-2 text-[var(--muted)]">Panels require light cleaning every 2–3 weeks. Inverters may need annual inspection.</p>
+        </details>
+
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">Can solar systems handle ACs and motors?</summary>
+          <p class="mt-2 text-[var(--muted)]">Yes — a properly sized system can power ACs, motors, fridges, and other heavy loads efficiently.</p>
+        </details>
+
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">Do solar panels work during cloudy weather?</summary>
+          <p class="mt-2 text-[var(--muted)]">Modern panels still produce energy in low-light conditions, though output may slightly drop.</p>
+        </details>
+
+        <details class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+          <summary class="font-semibold text-[var(--ink)] cursor-pointer">What is net metering?</summary>
+          <p class="mt-2 text-[var(--muted)]">Net metering allows excess energy to be exported to the grid, reducing electricity bills based on exported units.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#0b0b0c] text-white mt-20 pt-12 pb-10">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <h4 class="text-xl font-extrabold">☀ SOLAR BLOG</h4>
+        <p class="mt-3 text-sm text-gray-300 max-w-md">Professional solar installation services, transparent pricing, and maintenance guidance for homeowners in Pakistan.</p>
+      </div>
+
+      <div>
+        <h5 class="font-semibold mb-3 text-[var(--gold)]">Quick Links</h5>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li><a href="#services" class="hover:text-[var(--gold)] transition">➤ Services Overview</a></li>
+          <li><a href="#quote" class="hover:text-[var(--gold)] transition">➤ Get Quote</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="font-semibold mb-3 text-[var(--gold)]">⭐ Follow Us</h5>
+        <a href="https://www.facebook.com/profile.php?id=61584605664376" target="_blank" class="flex items-center gap-2 px-4 py-2 bg-[var(--gold)] text-black font-semibold rounded-full shadow hover:bg-[#e6b834] transition mb-3">📘 Facebook</a>
+        <a href="https://www.instagram.com/sola_rinstallation" target="_blank" class="flex items-center gap-2 px-4 py-2 bg-[var(--gold)] text-black font-semibold rounded-full shadow hover:bg-[#e6b834] transition">📸 Instagram</a>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-gray-400 text-xs border-t border-gray-800 pt-4">© 2025 Solar Blog Pakistan — All rights reserved</div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+    }
+    document.querySelectorAll('#mobile-menu a').forEach(a => a.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    }));
+  </script>
+
+</body>
+</html>
